@@ -19,4 +19,4 @@ def about():
 
 # Run the application
 if __name__ == '__main__':
-    app.run()
+    app.run(Debug=True,port=10000)
